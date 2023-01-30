@@ -1,0 +1,11 @@
+.add-to-cart img {
+    height: 56px;
+}
+.add-to-cart span {
+    background: #000;
+    transform: translate(33px, 9px);
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+    border-radius: 31%;
+}

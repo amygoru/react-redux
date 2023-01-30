@@ -27,7 +27,7 @@ const Home = (props) => {
       }}
     >
       <div>
-          <span>{props.data.length}</span>
+          
         <Grid c ontainer spacing={2}>
           <Grid className="mt-5" item>
             <ButtonBase sx={{ width: 128, height: 128 }}>
@@ -37,6 +37,8 @@ const Home = (props) => {
               />
             </ButtonBase>
           </Grid>
+          <h1>sdasdasd</h1>
+          <span>{props.data}</span>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
